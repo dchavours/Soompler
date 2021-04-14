@@ -1,3 +1,12 @@
+I want to make a window that clicks on the button, then a window is opened displaying the info in the xml file. 
+
+
+
+
+
+
+
+
 
 
 # Soompler
@@ -26,3 +35,4 @@ Notice. At this point license is proprietary, thus any commercial usage of this 
 7. Do the same as 5 with CLion exporter, if you want to open it in CLion or QtCreator
 8. Open project in desired IDE
 9. Build it like plain project for your OS
+
