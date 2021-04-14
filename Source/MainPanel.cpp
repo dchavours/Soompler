@@ -7,7 +7,7 @@
 
 //==============================================================================
 MainPanel::MainPanel (SoomplerAudioProcessor& processor) : stateManager(processor.getStateManager()),
-    processor(processor), editor(this), listBtnTwo("ListBtnTwo")
+    processor(processor), editor(this), listBtnTwo("View List")
 {
     setSize(Settings::MAIN_PANEL_WIDTH, Settings::MAIN_PANEL_HEIGHT);
     setName("mainPanel");
@@ -113,7 +113,7 @@ MainPanel::MainPanel (SoomplerAudioProcessor& processor) : stateManager(processo
     // Begin viewList button logic. 
     //viewListObjOne->setPosition(160,220);
 
-    listBtnTwo.setBounds(150,210, 300, 300);
+    listBtnTwo.setBounds(50,45, 75, 50);
 
 
     addAndMakeVisible(&listBtnTwo);
