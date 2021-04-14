@@ -44,6 +44,10 @@ private:
     std::unique_ptr<SoomplerKnob> decayKnob;
     std::unique_ptr<SoomplerKnob> sustainKnob;
     std::unique_ptr<SoomplerKnob> releaseKnob;
+
+    
+    std::unique_ptr<ViewList> viewListObjOne;
+
     
     std::unique_ptr<LinearPanel> adsrPanel;
     

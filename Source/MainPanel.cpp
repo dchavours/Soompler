@@ -2,6 +2,8 @@
 #include "Settings.h"
 #include "Strings.h"
 #include "PluginEditor.h"
+#include "ViewList.h"
+
 
 //==============================================================================
 MainPanel::MainPanel (SoomplerAudioProcessor& processor) : stateManager(processor.getStateManager()),
@@ -106,6 +108,34 @@ MainPanel::MainPanel (SoomplerAudioProcessor& processor) : stateManager(processo
     adsrPanel->addAndMakeVisible(releaseKnob.get());
     adsrPanel->setPosition(150, 225);
     addAndMakeVisible(adsrPanel.get());
+
+
+    // Begin viewList button logic. 
+    viewListObjOne->setPosition(160,220);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Reverse sample
     reverseButton.reset(new SoomplerToggleButton(TRANS("Reverse\n")));
