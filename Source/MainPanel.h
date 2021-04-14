@@ -11,6 +11,8 @@
 #include "SoomplerToggleButton.h"
 #include "LinearPanel.h"
 #include "SoomplerKnob.h"
+#include "ViewList.h"
+
 
 class MainPanel  : public Component,
                    public Slider::Listener,
@@ -46,7 +48,7 @@ private:
     std::unique_ptr<SoomplerKnob> releaseKnob;
 
     
-    std::unique_ptr<ViewList> viewListObjOne;
+    //std::unique_ptr<ViewList> viewListObjOne;
 
     
     std::unique_ptr<LinearPanel> adsrPanel;
@@ -65,6 +67,8 @@ private:
     ADSR::Parameters adsrParams;
 
     Image backgroundImage;
+
+    TextButton listBtnTwo;
 
     SoomplerAudioProcessor& processor;
 

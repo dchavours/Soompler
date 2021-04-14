@@ -25,16 +25,20 @@ ViewList::~ViewList()
 }
 
 
-void ViewList::resized()
-{
-    // This method is where you should set the bounds of any child
-    // components that your component contains..
-
-}
 
 
+/*
+This is actually a copy of : 
 
 void LinearPanel::setPosition(int x, int y) {
+    setBounds(x, y, getWidth(), getHeight());
+}
+
+How would I just reference this in an effort to make cleaner code?
+
+
+*/
+void ViewList::setPosition(int x, int y) {
     setBounds(x, y, getWidth(), getHeight());
 }
  

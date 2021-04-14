@@ -21,8 +21,9 @@ public:
     ViewList();
     ~ViewList();
 
-    void paint (Graphics&) override;
-    void resized() override;
+    void setPosition(int x, int y);
+
+
 
 private:
 
