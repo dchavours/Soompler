@@ -1,3 +1,12 @@
+I want to make a window that clicks on the button, then a window is opened displaying the info in the xml file. 
+
+
+
+
+
+
+
+
 
 
 # Soompler
